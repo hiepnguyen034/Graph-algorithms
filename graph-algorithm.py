@@ -2,14 +2,8 @@
 """
 @author: Hiep Nguyen
 """
-
+import copy as c
 def shortest_list(lists):
-    """
-    Purpose: this function takes a list of list and return the shortest list in the
-    list of list
-    Argument: a list of list
-    Output: the shortest list in the list of list
-    """
     lengths=[]
     for sublist in lists:
         lengths.append(len(sublist))
@@ -46,7 +40,7 @@ def shortest_path(graph,start,end):#This is the intial call to the recursive fun
 
 
         
-import copy as c
+
 def cycle(graph,node):
     """
     Purpose: This function takes a graph and a node and detects if there is a cycle starting
