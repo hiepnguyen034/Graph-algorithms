@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Hiep Nguyen
-"""
 import copy as c
 def shortest_list(lists):
     lengths=[]
